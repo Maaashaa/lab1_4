@@ -30,6 +30,7 @@ public class Lab1_4 {
                     break;
                 default:
                     System.out.println("Ошибка.Нет такого месяца. Необходимо число от 1 до 12");
+                    in.close();
             }
         } catch (InputMismatchException e) {
             System.out.println("Ошибка. Введите целое число");
